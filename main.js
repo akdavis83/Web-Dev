@@ -68,12 +68,12 @@ class Website3DDemo {
     //     'Silly Dancing.fbx', new THREE.Vector3(0, 0, 0));
 
     this._LoadAnimatedModelAndPlay(
-        './resources/zombie/', 'mremireh_o_desbiens.fbx',
+        './resources/', 'mremireh_o_desbiens.fbx',
         'Silly Dancing.fbx', new THREE.Vector3(-20, 0, -20));
 
     // this._LoadAnimatedModelAndPlay(
-    //     './resources/zombie/', 'mremireh_o_desbiens.fbx',
-    //     'Silly Dancing.fbx', new THREE.Vector3(20, 0, -20));
+    //     './resources/', 'character.fbx',
+    //     'Hip Hop Dancing.fbx', new THREE.Vector3(20, 0, -20));
   
     this._mixers = [];
     this._previousRAF = null;
